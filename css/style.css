@@ -27,7 +27,15 @@
 }
 
 
+.modal-body {
+    background: #ffffff; 
+}
 
+.modal-header{
+    border-style: none;
+    background: rgb(52, 52, 155);
+    color: white;
+}
 
 .adress{font-size: 80%;
     margin: 0px;
@@ -106,4 +114,9 @@ p{
 .img-thumbnail{
     width: 200px;
     height: 200px;
+}
+
+.galleryimg{
+    max-width: 200px;
+    height: auto;
 }
