@@ -113,3 +113,13 @@ p{
     width: 200px;
     height: 200px;
 }
+
+.modal-header {
+    background: #512DA8;
+    color:white; 
+}
+.modal-header button {
+      color:white; }
+  
+.modal-body {
+    background: #D1C4E9; }

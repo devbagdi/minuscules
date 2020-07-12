@@ -25,15 +25,43 @@
             <a class="navbar-brand mr-auto" href="index.html"><img src="./img/Logopit_1593419868723.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item "><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> about us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Join us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html"><span class="fa fa-photo fa-lg"></span> Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> contact</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginmodal">
+                        <span class="fa fa-sign-in"></span> Subscribe
+                    </a>
+                </span>
             </div>
         </div> 
     </nav>
-
+    <div id="loginmodal" class="modal fade" role="dialog>">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-header">
+                <h4 class="modal-title">Subscibe</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-4">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary btn-sm ml-1">Subscribe</button>        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <header class="jumbotron">
         <div class="container">
@@ -42,13 +70,6 @@
                     <h1>My Insect Guide</h1>
                     <p>A place for entomologists and entomophiles to share their knowledge and experience of insects with other.</p>
                 </div>
-                <!--<div class="col-12 col-sm-4 ml-auto align-self-center">
-                    <img src="./img/Logopit_1593419868723.png" class="img-fluid d-xl-block">
-                </div> 
-                
-                <button class=" col-sm align-self-center btn btn-warning" 
-                    data-toggle="modal"  
-                    data-target="#reservationmodal">Reserve Table</button>-->
             </div>
         </div>
     </header>
@@ -197,8 +218,8 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
                         <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
