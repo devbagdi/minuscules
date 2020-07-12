@@ -1,3 +1,4 @@
+
 .row-header{
     margin:0px auto;
     padding: 0px auto;
@@ -36,7 +37,7 @@
 }
 /* to avoid navbar from hiding jumbotron */
 .body{
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px !important;
     z-index: -1;
 }
 /*       x              to avoid navbar from hiding jumbotron        x       */
@@ -101,6 +102,11 @@ p{
         background: url('../img/0a.jfif');
         background-size: 100% 100%;
     }
+
+    .media{
+        display: block !important;
+    }
+
 }
 
 .img-thumbnail{
