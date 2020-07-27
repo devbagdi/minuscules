@@ -28,7 +28,7 @@
                     <li class="nav-item"><a class="nav-link" href="../contactus.html"><span class="fa fa-file-contract fa-address-card"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginmodal">
+                    <a id="login-modal">
                         <span class="fa fa-sign-in"></span> Subscribe
                     </a>
                 </span>
@@ -36,28 +36,30 @@
         </div> 
     </nav>
     <div id="loginmodal" class="modal fade" role="dialog>">
-        <div class="modal-dialog modal-lg" role="content">
-            <div class="modal-header">
-                <h4 class="modal-title">Subscribe</h4>
-                <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                </button>
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Subscribe</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
 
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-sm-4">
-                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary btn-sm ml-1">Subscribe</button>        
-                    </div>
-                </form>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Subscribe</button>        
+                        </div>
+                    </form>
 
+                </div>
             </div>
         </div>
     </div>

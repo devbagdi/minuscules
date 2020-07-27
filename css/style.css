@@ -6,25 +6,20 @@
 
 .row-content{
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 10px 0px 10px 0px;
     border-bottom:1px ridge;
-    min-height: 400px;
+    min-height: 200px;
 }
 
 .footer{
-    background-color:rgb(2, 2, 2);
+    background-color:rgb(221, 220, 220);
     margin: 0px auto;
-    padding: 20px 0px 20px 0px;
-    color: wheat;
+    padding: 20px 0px 20px 0px
 }
 .jumbotron{
-    height: 400px;
-    padding: 70px 30px 70px 30px;
+    height: auto;
+    padding: 70px 30px 0px 30px;
     margin:0px auto;
-    background: url('../img/jumbotron.png.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: white;
 }
 
 
@@ -62,7 +57,10 @@
 
 
 .carousel-item{
-    height: 300px;
+    height: 200px;
+}
+.carousel{
+    margin: 2rem 0rem 2rem 0rem;
 }
 
 .carousel-item img{
@@ -73,12 +71,6 @@
     height: 100%;
 }
 
-#carouselButton{
-    z-index: 1;
-    right: 0px;
-    position: absolute;
-    bottom: 0px;
-}
 
 
 .para{
@@ -98,7 +90,7 @@ p{
     display: none;
  }
  
- @media only screen and (max-width: 768px){
+ @media only screen and (max-width: 425px){
     .image1{
       display: none;
     }
@@ -106,10 +98,7 @@ p{
     .image2{
       display: block;
     }
-    .jumbotron{
-        background: url('../img/0a.jfif');
-        background-size: 100% 100%;
-    }
+
 
     .media{
         display: block !important;
