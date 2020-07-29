@@ -18,21 +18,21 @@
 <body>
 
     <!-------------------navbar------------------->
-    <nav class="navbar navbar-dark fixed-top navbar-expand-sm ">
+    <nav class="navbar navbar-light fixed-top navbar-expand-sm ">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="index.html"><img src="./img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto" href="index.html"><img src="./img/logo.png" height="30" width="41">&nbsp; Minuscules</a>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html"><span class="fa fa-photo fa-lg"></span> Gallery</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-paragraph fa-lg"></span> Articles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html"><span class="fa fa-photo"></span> Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-paragraph"></span> Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><span class="fa fa-info"></span> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card"></span> Contact</a></li>
                 </ul>
-                <span class="navbar-text">
+                <span class="navbar-text ml-auto">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtBeqcimIh4mHt9nAzfvAde-dhbFRVOo_V3tsc3mBSTQ97cg/viewform?usp=sf_link" target='_blank'>
                         <span class="fa fa-sign-in"></span> Subscribe
                     </a>
@@ -44,7 +44,13 @@
 
     <!--------jumbotron---------->
     <header class="jumbotron">
-        <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active"><a href="#">Articles</a></li>
+            </ol>
+        </div>
+        <!--<div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6 align-self-center">
                     <h1>Minuscules</h1> <h4> My Insect Guide</h4>
@@ -52,7 +58,7 @@
                 </div> 
                 <div class="col-12 col-sm-4 m-auto align-self-center" ><img class="img-fluid " src="./img/logo.png"></div>       
             </div>
-        </div>
+        </div>-->
     </header>
     <!--------jumbotron---------->
 
@@ -62,19 +68,10 @@
 
 
     <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="../index.html">home</a></li>
-                <li class="breadcrumb-item active"><a href="#">articles</a></li>
-            </ol>
-
-            <div class="col-12">
-               <h3>Article</h3>
-               <hr>
-            </div>
-        </div>
-
-
+        <div class="col-12">
+            <h3>Articles</h3>
+            <hr>
+         </div>
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3 ">
@@ -84,10 +81,10 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/p1a.jfif">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Why is arthopod conservation important?</h2> <span class="badge badge-danger"> New</span>
+                        <h2 class="mt-0 d-inline"><a class="text-dark" href= "./articles/(1)whyIsArthopodConservationIsImportant.html">Why is arthopod conservation important?</a></h2> <span class="badge badge-danger"> New</span>
                         <p>We have all seen these tiny little creatures around us so many times, they can be
                             seen inside your house, park, or office, they are everywhere. They have so many
-                            diverse and fascinating forms... </p><span><a class="text-white" href="./articles/(1)whyIsArthopodConservationIsImportant.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            diverse and fascinating forms... </p><!--<span><a class="text-white" href="./articles/(1)whyIsArthopodConservationIsImportant.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                 </div>
             </div>
@@ -101,9 +98,9 @@
             <div class="col col-sm col-md">
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">LIFE WITHOUT BUGS</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class="text-dark" href="./articles/(2)LifeWithoutBugs.html">LIFE WITHOUT BUGS</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>Let’s think of a hypothetical world with no arthropods around. The first thought to many would be “Glad those gross little creatures won’t haunt anymore!” There would no longer be mosquitoes...</p>
-                    </p><span><a class="text-white" href="./articles/(2)LifeWithoutBugs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                    </p><!--<span><a class="text-white" href="./articles/(2)LifeWithoutBugs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div> 
                     <img class="d-flex ml-3 img-thumbnail align-self-center" src="./img/butterfly.jfif">         
                 </div>
@@ -118,11 +115,11 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/p3.jpg">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Bioluminescence in Fireflies</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(3)BioluminesceneceInFireflies.html">Bioluminescence in Fireflies</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>Ever wondered why and how a Firefly(lightning bug) is able to light up?? Is it to scare
                             away predators? or to communicate with its peers? or to produce heat for keeping itself
                             warm? In this article we have covered answers to all such questions and more...</p>
-                            <span><a class="text-white" href="./articles/(3)BioluminesceneceInFireflies.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(3)BioluminesceneceInFireflies.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                 </div>
             </div>
@@ -134,11 +131,11 @@
             <div class="col col-sm col-md"> 
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Insects: Our Tiny Saviour</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href="./articles/(4)InsectOurTinySaviour.html"> Insects: Our Tiny Saviour</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>The world is full of different type of creatures and there size vary from few
                             millimeters to some meters. Some organism attracts us towards them and some
                             makes us afraid of them. But no matter what they are...</p>
-                            <span><a class="text-white" href="./articles/(4)InsectOurTinySaviour.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(4)InsectOurTinySaviour.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/p4.jfif">
                 </div>
@@ -151,13 +148,13 @@
             </div>
             <div class="col col-sm order-sm-first col-md"> 
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/p3.jpg">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/metamorphosis.png">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Evolution Of Metamorphosis</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(5)evolutionOfMetamorphosis.html"> Evolution Of Metamorphosis</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>It is now known for over 400 years how various animals undergo adverse physical changes during
                              their life, how a caterpillar changes into a butterfly, and a tadpole into a frog. Metamorphosis
                             , the process by which an animal develops after birth or hatching and goes through... <p>
-                            <span><a class="text-white" href="./articles/(5)evolutionOfMetamorphosis.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(5)evolutionOfMetamorphosis.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                 </div>
             </div>
@@ -170,10 +167,10 @@
             <div class="col col-sm col-md"> 
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">The Beautiful Dragon</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(6)ABeautifulDragon.html" >The Beautiful Dragon</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>"Dragonflies hunt insects with great precision and have a 95% success rate and can eat 30 
                             flies in a row," says Dr. Stacey Combes studying Dragonfly biomechanics at Harvard. </p>
-                            <span><a class="text-white" href="./articles/(6)ABeautifulDragon.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(6)ABeautifulDragon.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/dragonfly.jfif">
                 </div>
@@ -187,10 +184,10 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/cockroach-70295_960_720.webp">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Cockroaches can live without head</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(7)cockroaches.html">Cockroaches can live without head</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>To most of the people out there, cockroaches are already very revulsive and creepy organisms.
                             After knowing the fact that it can live for several days without a head, it definitely makes one’s skin...</p>
-                            <span><a class="text-white" href="./(7)cockroaches.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(7)cockroaches.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                 </div>
             </div>
@@ -203,11 +200,11 @@
             <div class="col col-sm col-md"> 
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Ant Who Love Electrics </h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(8)AntsWhoLoveElectrics.html">Ant Who Love Electrics</a> </h2> <span class="badge badge-danger d-inline">New</span>
                         <p>Yes, you read the title right! These ants, or to be precise, <a href= "https://en.wikipedia.org/wiki/Rasberry_crazy_ant" target= "_blank">Raspberry Crazy Ants</a>,
                             seems to be attracted to electrical equipments. Nylanderia fulva which is an ant found in South America is not
                             called “crazy” due to their weird infatuation for our gadgets, but because of their random, nonlinear movements...</p>
-                            <span><a class="text-white" href="./(8)AntsWhoLoveElectrics.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>                    
+                            <!--<span><a class="text-white" href="./articles/(8)AntsWhoLoveElectrics.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->                    
                     </div>
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/photo-1539545555026-ea9418026ac4.jfif">
                 </div>
@@ -222,11 +219,11 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/0a.jfif">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">The Bee Dance</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(9)TheBeeDance.html">The Bee Dance</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>Ever wondered why and how a Firefly(lightning bug) is able to light up?? Is it to scare
                             away predators? or to communicate with its peers? or to produce heat for keeping itself
                             warm? In this article we have covered answers to all such questions and more...</p>
-                            <span><a class="text-white" href="./(9)TheBeeDance.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(8)AntsWhoLoveElectrics.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                 </div>
             </div>
@@ -238,12 +235,12 @@
             <div class="col col-sm col-md"> 
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Crabs</h2> <span class="badge badge-danger d-inline">New</span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(10)crabs.html">Crabs</a></h2> <span class="badge badge-danger d-inline">New</span>
                         <p>It’s a short tailed member of the crustacean order decapoda
                             (phylum arthropoda) especially the brachyurans or true crabs,
                             but also other forms such as anomurans which include hermit
                             crabs....</p>
-                            <span><a class="text-white" href="./(10)crabs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            <!--<span><a class="text-white" href="./articles/(10)crabs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/crab.jfif">
                 </div>
@@ -257,11 +254,10 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/p3.jpg">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">CRUSTACEANS</h2> <span class="badge badge-danger d-inline">New</span>
-                        <p>CRUSTACEANS FORM A LARGE, DIVERSE SUBPHYLUM
-                            OF PHYLUM ARTHROPODA. THIS CLASS INCLUDES SOME
-                            OF THE MORE FAMILIAR ARTHROPODS INCLUDING ...</p>
-                            <span><a class="text-white" href="./(11)crustaceans.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                        <h2 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(11)crustaceans.html">CRUSTACEANS</a></h2> <span class="badge badge-danger d-inline">New</span>
+                        <p>   Crustaceans form a large, diverse Subphylum of Phylum Arthropoda. This class includes some of the more familiar arthropods including Barnacles, Bopepods, Crabs, Prawns, Lobsters and wood lice. Despite such an extraordinary diversity of species many crustaceans have a similar structure...</p>
+                        </p>
+                            <!--<span><a class="text-white" href="./articles/(11)crustaceans.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
                     </div>
                 </div>
             </div>

@@ -17,6 +17,7 @@
     padding: 20px 0px 20px 0px
 }
 .jumbotron{
+    background: ;
     height: auto;
     padding: 70px 30px 0px 30px;
     margin:0px auto;
@@ -40,12 +41,12 @@
 }
 /* to avoid navbar from hiding jumbotron */
 .body{
-    padding: 0px 0px 0px 0px !important;
-    z-index: -1;
+    padding: auto 0px 0px 0px !important;
+    z-index: -1 !important;
 }
 /*       x              to avoid navbar from hiding jumbotron        x       */
-.navbar-dark{
-    background:rgba(61, 45, 119, 0.534);
+.navbar-light{
+    background:white !important;
 }
 
 .tab-content{
@@ -69,17 +70,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-
-
-.para{
-    font-size: large;
-    padding-top: 2rem;
-}
-
-p{
-    font-size: larger;
 }
 
 .para::first-letter {
@@ -107,8 +97,15 @@ p{
 }
 
 .img-thumbnail{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (max-width:768px){
+    .img-thumbnail{
+        width: 125px ;
+        height: 125px ;
+    }
 }
 
 

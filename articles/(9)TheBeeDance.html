@@ -1,10 +1,11 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--useful meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minuscules-myinsectguide</title>
+    <title>Minuscules</title>
     <!---css files-->
     <!--bild:css css/maim.css-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -13,96 +14,108 @@
     <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css">
     <!--endbulid-->
 </head>
+
 <body>
-    <nav class="navbar navbar-dark fixed-top navbar-expand-sm ">
+    <nav class="navbar navbar-light fixed-top navbar-expand-sm ">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="index.html"><img src="../img/Logopit_1593419868723.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto" href="index.html"><img src="../img/logo.png" height="30" width="41">&nbsp;
+                Minuscules</a>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="../index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../index.html"><span class="fa fa-photo fa-lg"></span> Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../aboutus.html"><span class="fa fa-info fa-lg"></span> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../contactus.html"><span class="fa fa-file-contract fa-address-card"></span> Contact</a></li>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../gallery.html"><span
+                                class="fa fa-photo "></span> Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="../articles.html"><span
+                                class="fa fa-paragraph "></span> Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../aboutus.html"><span
+                                class="fa fa-info "></span> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contactus.html"><span
+                                class="fa fa-file-contract fa-address-card"></span> Contact</a></li>
                 </ul>
-                <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginmodal">
+                <span class="navbar-text ml-auto">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtBeqcimIh4mHt9nAzfvAde-dhbFRVOo_V3tsc3mBSTQ97cg/viewform?usp=sf_link"
+                        target='_blank'>
                         <span class="fa fa-sign-in"></span> Subscribe
                     </a>
                 </span>
             </div>
-        </div> 
-    </nav>
-    <div id="loginmodal" class="modal fade" role="dialog>">
-        <div class="modal-dialog modal-lg" role="content">
-            <div class="modal-header">
-                <h4 class="modal-title">Subscribe</h4>
-                <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                </button>
-
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-sm-4">
-                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary btn-sm ml-1">Subscribe</button>        
-                    </div>
-                </form>
-
-            </div>
         </div>
-    </div>
+    </nav>
     <header class="jumbotron">
         <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-6 align-self-center">
-                    <h1>Minucules - My Insect Guide</h1>
-                    <p>A place for entomologists and entomophiles to share their knowledge and experience of insects with other.</p>
-                </div>         
+            <div class="row">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active"><a href="../articles.html">Articles</a></li>
+                </ol>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="../index.html">home</a></li>
-                <li class="breadcrumb-item active"><a href="#">articles</a></li>
-            </ol>
-
-            <div class="col-12">
-               <h3>Article</h3>
-               <hr>
-            </div>
+        <div class="col-12">
+            <h3>Article</h3>
+            <hr>
         </div>
 
         <div class="row row-content justify-content-center">
             <div class="col-12 col-sm-8">
                 <h3 class="post-title">The Bee Dance</h3>
-                <span class="fa fa-calendar text-secondary"> 07/07/2020 </span> &nbsp;&nbsp&nbsp;&nbsp <span class="fa fa-comment text-secondary"> 2 comments</span>
-                <img class="img-fluid img-responsive img-rounded d-block" src="../img/p4.jfif">
-                <p class="para"> &nbsp;&nbsp;&nbsp; <b >I</b> you are a keen observer, then you must have seen honey bees (Apis sp.) waggling around. Ever wondered, what is the reason behind this? Is it just for fun? Or are the bees really inspired by Michael Jackson!? Well, these little creatures are much smarter than what we can think of and use this dance as a means of communication! <a href= "https://en.wikipedia.org/wiki/Karl_von_Frisch" target= "_blank">Dr. Karl von Frisch</a>, who was awarded the Nobel Prize for his research on the honey bee dance, was himself astounded about what he found.</p>
+                <span class="fa fa-calendar text-secondary"> 07/07/2020 </span> &nbsp;&nbsp&nbsp;&nbsp <span
+                    class="fa fa-comment text-secondary"> 2 comments</span>
+                <p class="para"> &nbsp;&nbsp;&nbsp; <b>I</b>f you are a keen observer, then you must have seen honey bees
+                    (Apis sp.) waggling around. Ever wondered, what is the reason behind this? Is it just for fun? Or
+                    are the bees really inspired by Michael Jackson!? Well, these little creatures are much smarter than
+                    what we can think of and use this dance as a means of communication! <a
+                        href="https://en.wikipedia.org/wiki/Karl_von_Frisch" target="_blank">Dr. Karl von Frisch</a>,
+                    who was awarded the Nobel Prize for his research on the honey bee dance, was himself astounded about
+                    what he found.</p>
                 <br>
-                <p> Undoubtedly, the honey bee dance is one of the most famous aspects of honey bee biology. This unique form of communication allowed bees to share information on the location of food sources with nest-mates. This dance is sometimes referred to as the waggle dance, although the waggle dance is one of the dances performed by the honey bee. The two main informations which are communicated via this method are telling a swarming colony about the location of a potential new home, and communicating to its sisters the distance and location of food and also water.</p>
+                <p> Undoubtedly, the honey bee dance is one of the most famous aspects of honey bee biology. This unique
+                    form of communication allowed bees to share information on the location of food sources with
+                    nest-mates. This dance is sometimes referred to as the waggle dance, although the waggle dance is
+                    one of the dances performed by the honey bee. The two main informations which are communicated via
+                    this method are telling a swarming colony about the location of a potential new home, and
+                    communicating to its sisters the distance and location of food and also water.</p>
                 <br>
-                <p> Round dance is performed by the bees when the food source is close to the hive, i.e. less than 50 metres. Quite interestingly, the closer the food source is, the more number of ‘rounds’ are performed by the bee. This dance communicates only about distance, and not direction. After the round dance has ended, the bee often distributes food to the bees following her. When the food sources are at a distance about 50-150 metres, sickle dance is performed. The form of this dance is crescent-shaped, a transitional dance between a round dance and a figure-eight waggle dance.</p>
+                <p> Round dance is performed by the bees when the food source is close to the hive, i.e. less than 50
+                    metres. Quite interestingly, the closer the food source is, the more number of ‘rounds’ are
+                    performed by the bee. This dance communicates only about distance, and not direction. After the
+                    round dance has ended, the bee often distributes food to the bees following her. When the food
+                    sources are at a distance about 50-150 metres, sickle dance is performed. The form of this dance is
+                    crescent-shaped, a transitional dance between a round dance and a figure-eight waggle dance.</p>
                 <br>
-                <p>A waggle dance, or wag-tail dance, is performed by bees foraging at food sources that are over 150 meters away from the hive. This dance, unlike the round and sickle dances, communicates both distance and direction to potential recruits. A bee that performs a waggle dance runs straight ahead for a short distance, returns in a semicircle to the starting point, runs again through the straight course, then makes a semicircle in the opposite direction to complete a full, figure-eight circuit. As the distance to the food source increases, the duration of the waggling portion of the dance also increases. The relationship is roughly linear. For example, a forager that performs a waggle run that lasts 2.5 seconds is recruiting for a food source located approximately 2625 meters away.</p>
+                <img class="img-fluid img-responsive img-rounded d-block" src="../img/Bee dance.gif">
+                <p>A waggle dance, or wag-tail dance, is performed by bees foraging at food sources that are over 150
+                    meters away from the hive. This dance, unlike the round and sickle dances, communicates both
+                    distance and direction to potential recruits. A bee that performs a waggle dance runs straight ahead
+                    for a short distance, returns in a semicircle to the starting point, runs again through the straight
+                    course, then makes a semicircle in the opposite direction to complete a full, figure-eight circuit.
+                    As the distance to the food source increases, the duration of the waggling portion of the dance also
+                    increases. The relationship is roughly linear. For example, a forager that performs a waggle run
+                    that lasts 2.5 seconds is recruiting for a food source located approximately 2625 meters away.</p>
                 <br>
-                <p>The method of communicating direction is more complicated and abstract. The orientation of the dancing bee during the straight portion of her waggle dance indicates the location of the food source relative to the sun. The angle that the bee adopts, relative to vertical, represents the angle to the flowers relative to the direction of the sun outside of the hive. In other words, the dancing bee transposes the solar angle into the gravitational angle. Conversely, if the food source were located directly away from the sun, the straight run would be directed vertically down. If the food source were 60 degrees to the left of the sun, the waggle run would be 60 degrees to the left of vertical. The honey bee has to change the angle of the dance as the sun changes position through the day! Clouds, tall buildings, trees or other obstacles obscuring the sun require the bee to use her knowledge of ultraviolet light and polarization by analysing the intensity of light.</p>
+                <p>The method of communicating direction is more complicated and abstract. The orientation of the
+                    dancing bee during the straight portion of her waggle dance indicates the location of the food
+                    source relative to the sun. The angle that the bee adopts, relative to vertical, represents the
+                    angle to the flowers relative to the direction of the sun outside of the hive. In other words, the
+                    dancing bee transposes the solar angle into the gravitational angle. Conversely, if the food source
+                    were located directly away from the sun, the straight run would be directed vertically down. If the
+                    food source were 60 degrees to the left of the sun, the waggle run would be 60 degrees to the left
+                    of vertical. The honey bee has to change the angle of the dance as the sun changes position through
+                    the day! Clouds, tall buildings, trees or other obstacles obscuring the sun require the bee to use
+                    her knowledge of ultraviolet light and polarization by analysing the intensity of light.</p>
                 <br>
-                <p>There are other factors, like the amount of wind, which are taken in account by these clever bees! A strong headwind will cause the bee to dance as if the food was further away, thus indicating that more energy will be expended to reach this source of food. </p>
+                <p>There are other factors, like the amount of wind, which are taken in account by these clever bees! A
+                    strong headwind will cause the bee to dance as if the food was further away, thus indicating that
+                    more energy will be expended to reach this source of food. </p>
                 <br>
-                <p>Who would have thought that dancing would have been such an effective source of communication for these little creatures!</p>
+                <p>Who would have thought that dancing would have been such an effective source of communication for
+                    these little creatures!</p>
                 <br>
 
 
@@ -112,11 +125,14 @@
 
 
 
-        
 
-                
-            
-                <span class="fa fa-pencil">Author:</span><span class="text-secondary"><p><b>ANCHITA SHARMA</b> is Bachelor's Student in the Indian institute of Science Education and Research</p></span>
+
+
+
+                <span class="fa fa-pencil">Author:</span><span class="text-secondary">
+                    <p><b>ANCHITA SHARMA</b> is Bachelor's Student in the Indian institute of Science Education and
+                        Research</p>
+                </span>
 
 
             </div>
@@ -126,7 +142,7 @@
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h5 class="text-secondary"></h5>
             </div>
-            <div class="col col-sm order-sm-first col-md"> 
+            <div class="col col-sm order-sm-first col-md">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/crab.jfif">
                     <div class="media-body">
@@ -135,7 +151,8 @@
                             (phylum arthropoda) especially the brachyurans or true crabs,
                             but also other forms such as anomurans which include hermit
                             crabs....</p>
-                            <span><a class="text-white" href="./(10)crabs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                        <span><a class="text-white" href="./(10)crabs.html"><button class="btn btn-primary btn-sm">Read
+                                    More</button></a></span>
                     </div>
                 </div>
             </div>
@@ -145,14 +162,15 @@
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h5 class="text-secondary">CHARACTERSTICS</h5>
             </div>
-            <div class="col col-sm order-sm-first col-md"> 
+            <div class="col col-sm order-sm-first col-md">
                 <div class="media">
                     <div class="media-body">
                         <h2 class="mt-0 d-inline">CRUSTACEANS</h2> <span class="badge badge-danger d-inline">New</span>
                         <p>CRUSTACEANS FORM A LARGE, DIVERSE SUBPHYLUM
                             OF PHYLUM ARTHROPODA. THIS CLASS INCLUDES SOME
                             OF THE MORE FAMILIAR ARTHROPODS INCLUDING ...</p>
-                            <span><a class="text-white" href="./(11)crustaceans.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                        <span><a class="text-white" href="./(11)crustaceans.html"><button
+                                    class="btn btn-primary btn-sm">Read More</button></a></span>
                     </div>
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/p3.jpg">
                 </div>
@@ -163,14 +181,17 @@
             <div class="col-12 col-sm-4 order-sm-last col-md-3 ">
                 <h5 class="text-secondary">CONSERVATION</h5>
             </div>
-            <div class="col col-sm order-sm-first col-md"> 
+            <div class="col col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/p1a.jfif">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/p1a.jfif">
                     <div class="media-body">
-                        <h2 class="mt-0 d-inline">Why is arthopod conservation important?</h2> <span class="badge badge-danger"> New</span>
+                        <h2 class="mt-0 d-inline">Why is arthopod conservation important?</h2> <span
+                            class="badge badge-danger"> New</span>
                         <p>We have all seen these tiny little creatures around us so many times, they can be
                             seen inside your house, park, or office, they are everywhere. They have so many
-                            diverse and fascinating forms... </p><span><a class="text-white" href="./articles/(1)whyIsArthopodConservationIsImportant.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>
+                            diverse and fascinating forms... </p><span><a class="text-white"
+                                href="./articles/(1)whyIsArthopodConservationIsImportant.html"><button
+                                    class="btn btn-primary btn-sm">Read More</button></a></span>
                     </div>
                 </div>
             </div>
@@ -180,12 +201,13 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row ">             
+            <div class="row ">
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="../gallery.html">Gallery</a></li>
+                        <li><a href="../articles.html">Articles</a></li>
                         <li><a href="../aboutus.html">About Us</a></li>
                         <li><a href="../contactus.html">Contact</a></li>
                     </ul>
@@ -193,33 +215,34 @@
 
 
 
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              hasbjaxsbjnjsncn<br>
-		              sdfkcjdnck ,dcdsjjc<br>
-		              India<br>
-		              <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
-		              <i class="fa fa-phone fa-lg"></i> +852 8765 4321<br>
-		              <i class="fa fa-envelope fa -lg"></i> <a href="mailto:myinsectguide@gmail.com">Minuscules-myinsectguide</a>
-		           </address>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <h4>Contact</h4>
+                        <i class="fa fa-envelope fa -lg"></i> <a
+                            href="mailto:myinsectguide@gmail.com">Minuscules-myinsectguide</a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="#" target="_blank"><i class="fa fa-google-plus fa -lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Myinsectguide-101453121631389/?ti=as" target="_blank"><i class="fa fa-facebook fa -lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="#" target="_blank"><i class="fa fa-twitter fa -lg"></i></a>
-                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/minuscules_?r=nametag" target="_blank"><i class="fa fa-instagram fa -lg"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="#" target="_blank"><i class="fa fa-youtube fa -lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:myinsectguide@gmail.com" target="_blank"><i class="fa fa-envelope fa -lg"></i></a>
+                        <h4>Join Us</h4>
+                        <a class="btn btn-social-icon btn-facebook"
+                            href="https://www.facebook.com/Myinsectguide-101453121631389/?ti=as" target="_blank"><i
+                                class="fa fa-facebook fa -lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/minuscules_"
+                            target="_blank"><i class="fa fa-twitter fa -lg"></i></a>
+                        <a class="btn btn-social-icon btn-instagram"
+                            href="https://www.instagram.com/minuscules_?r=nametag" target="_blank"><i
+                                class="fa fa-instagram fa -lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:myinsectguide@gmail.com"><i
+                                class="fa fa-envelope fa -lg"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">             
+            </div>
+            <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2020 Minuscules-myinsectguide</p>
+                    <p>© Copyright 2020 Minuscules - My Insect Guide</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
@@ -230,4 +253,5 @@
     <script src="../js/scripts.js"></script>
     <!--endbuild-->
 </body>
+
 </html>
