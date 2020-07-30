@@ -17,12 +17,14 @@
     padding: 20px 0px 20px 0px
 }
 .jumbotron{
-    background: ;
     height: auto;
-    padding: 70px 30px 0px 30px;
+    padding: 10px 30px 10px 30px;
     margin:0px auto;
 }
-
+.breadcrumb{
+    padding: 0rem 1rem !important;
+    margin-bottom: 0rem !important;
+}
 
 .modal-body {
     background: #ffffff; 
@@ -34,14 +36,14 @@
     color: white;
 }
 
-.adress{font-size: 80%;
+address{font-size: 80%;
     margin: 0px;
     color: black;
 
 }
 /* to avoid navbar from hiding jumbotron */
-.body{
-    padding: auto 0px 0px 0px !important;
+body{
+    padding: 70px 0px 0px 0px !important;
     z-index: -1 !important;
 }
 /*       x              to avoid navbar from hiding jumbotron        x       */
@@ -72,10 +74,6 @@
     height: 100%;
 }
 
-.para::first-letter {
-    font-size: 200%;
-    color: #2f2e30;
-  }
 .image2{
     display: none;
  }
