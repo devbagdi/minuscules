@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run lite\"",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img  && imagemin galleryimage/* -o dist/galleryimage",
+    "minify:html":"html-minifier --input-dir ./articles --output-dir ./dist/articles --collapse-whitespace",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html && usemin articles.html -d dist --htmlmin -o dist/articles.html",
+    "build": "npm run clean && npm run usemin && npm run copyfonts && npm run minify:html && npm run imagemin"
   },
   "repository": {
     "type": "git",
@@ -24,8 +33,18 @@
     "bootstrap-social": "^5.1.1",
     "chokidar": "^3.4.0",
     "font-awesome": "^4.7.0",
+    "html-minifier": "^4.0.0",
     "jquery": "^3.5.1",
     "lite-server": "^2.5.4",
     "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
   }
 }
