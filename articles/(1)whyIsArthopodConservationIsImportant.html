@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minuscules</title>
     <!---css files-->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <!-- endbuild -->
 </head>
 <body>
     <nav class="navbar navbar-light fixed-top navbar-expand-md ">
@@ -112,12 +116,12 @@
         <div class="row row-content align-items-center justify-content-center">
             <div class="col-lg-10"> 
                 <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/butterfly.jfif">      
                     <div class="media-body">
                         <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./(2)LifeWithoutBugs.html">Life Without Bugs</a></h4> <span class="badge badge-danger d-inline">New</span>
                         <p>Let’s think of a hypothetical world with no arthropods around. The first thought to many would be “Glad those gross little creatures won’t haunt anymore!” There would no longer be mosquitoes...</p>
                     </p><!--<span><a class="text-white" href="./(2)LifeWithoutBugs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
-                    </div> 
-                    <img class="d-flex ml-3 img-thumbnail align-self-center" src="../img/butterfly.jfif">         
+                    </div>    
                 </div>
             </div>
         </div>
@@ -179,6 +183,11 @@
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="../js/main.js"></script>
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
