@@ -2,6 +2,11 @@ $('#login-modal').click(function() {
      $('#loginmodal').modal();
 })
 
+$('#myList a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+})
+
    
 
 

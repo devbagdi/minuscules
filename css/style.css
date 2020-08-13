@@ -6,8 +6,7 @@
 
 .row-content{
     margin: 0px auto;
-    padding: 10px 0px 10px 0px;
-    border-bottom:1px ridge;
+
     min-height: 200px;
 }
 
@@ -15,6 +14,9 @@
     background-color:rgb(221, 220, 220);
     margin: 0px auto;
     padding: 20px 0px 20px 0px
+}
+.navbar-light{
+    background: white !important;
 }
 .jumbotron{
     height: auto;
@@ -36,11 +38,6 @@
     color: white;
 }
 
-address{font-size: 80%;
-    margin: 0px;
-    color: black;
-
-}
 /* to avoid navbar from hiding jumbotron */
 body{
     padding: 70px 0px 0px 0px !important;
@@ -52,13 +49,21 @@ body{
 }
 
 .tab-content{
+    border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     border-right: 1px solid #ddd;
     padding: 10px;
 }
+.list-group-item.active{
+    background-color: rgba(128, 128, 128, 0.534) !important;
+    border-color: grey !important;
+}
 
-
+/**.buzzfeed-img{
+    max-height: 275px;
+    width: 100%;
+}**/
 .carousel-item{
     height: 200px;
 }
@@ -117,7 +122,7 @@ body{
 .gallerybody{
     margin: 2rem 2rem 2rem 2rem;
 }
-.galleryimg{
-    max-width: 200px;
-    height: auto;
+
+.galleryimg:hover{
+    border-style: groove;
 }
