@@ -14,7 +14,7 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img  && imagemin galleryimage/* -o dist/galleryimage",
     "minify:html":"html-minifier --input-dir ./articles --output-dir ./dist/articles --collapse-whitespace",
-    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html && usemin articles.html -d dist --htmlmin -o dist/articles.html",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html && usemin articles.html -d dist --htmlmin -o dist/articles.html",
     "build": "npm run clean && npm run usemin && npm run copyfonts && npm run minify:html && npm run imagemin"
   },
   "repository": {

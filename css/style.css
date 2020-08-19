@@ -125,4 +125,5 @@ body{
 
 .galleryimg:hover{
     border-style: groove;
+    cursor: zoom-in;
 }
