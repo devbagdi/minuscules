@@ -49,6 +49,7 @@ body{
 }
 
 .tab-content{
+    height: 100%;
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -60,10 +61,6 @@ body{
     border-color: grey !important;
 }
 
-/**.buzzfeed-img{
-    max-height: 275px;
-    width: 100%;
-}**/
 .carousel-item{
     height: 200px;
 }
@@ -78,12 +75,11 @@ body{
     width: 100%;
     height: 100%;
 }
-
 .image2{
     display: none;
  }
  
- @media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px){
     .image1{
       display: none;
     }
@@ -126,4 +122,60 @@ body{
 .galleryimg:hover{
     border-style: groove;
     cursor: zoom-in;
+}
+
+
+
+
+
+/* Style the tab */
+.tab {
+  background-color: #f1f1f1;
+  height: fit-content;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab a {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 17px 10px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.tab :last-child{
+    border-bottom: none !important;
+}
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab a.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 15px 15px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+
+.para{
+    display: none !important;
+}
+
+.latest :hover .card-bodyv{
+    background: #ddd !important;
+}
+
+.latest :hover .card-title{
+    display: none;
+}
+.latest :hover .para{
+    display: block !important;
 }
