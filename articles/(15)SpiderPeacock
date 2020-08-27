@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script data-ad-client="ca-pub-4989097789441419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174692883-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-174692883-1');
+    </script>
+    <!--useful meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minuscules</title>
+    <!---css files-->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-light fixed-top navbar-expand-md ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" style="font-family: cursive;" href="../index.html"><img src="../img/logo.png" height="30" width="41">&nbsp; Minuscules</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html"><span class="fa fa-home "></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../gallery.html"><span class="fa fa-photo "></span> Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="../articles.html"><span class="fa fa-paragraph "></span> Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contactus.html"><span class="fa fa-file-contract fa-address-card"></span> Contact Us</a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a class="btn btn-success text-white" role="button"  href="https://docs.google.com/forms/d/e/1FAIpQLSdtBeqcimIh4mHt9nAzfvAde-dhbFRVOo_V3tsc3mBSTQ97cg/viewform?usp=sf_link" target='_blank'>
+                        <span class="fa fa-sign-in"></span> Subscribe
+                    </a>
+                </span>
+            </div>
+        </div> 
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active"><a href="../articles.html">Articles</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content justify-content-center">
+            <div class="col-12 col-sm-8">
+                <h3 class="post-title">Wiggle-waggle for survival</h3>
+                <span class="fa fa-calendar text-secondary"> 27/08/2020 </span>
+                <img class="img-fluid mt-2 mb-4 d-block article-image" src="../img/post1.jfif">
+                <p> &nbsp;&nbsp;&nbsp; While peacocks are known for their bonnie dance these
+                    peacock spiders are known for hokey pokey dance showing
+                    off their stylish fans. Both perform to please the females but
+                    it is a life or death challenge for the spiders. If the courtship
+                    display is not appealing enough, the <a href= "https://www.nationalgeographic.com/news/2015/12/151201-australia-peacock-spider-colorful-courtship-sex-animals-science/" target= "_blank">female eats up the male</a>
+                    spider.</p>
+                <br>
+                <p>The peacock spiders (genus Maratus) belong to the
+                   family of jumping spiders (Salticidae) and are chiefly found in
+                   temperate regions of Australia and China. They grow up to
+                   5mm max, are venomous but cannot harm humans as they
+                   can’t even pierce our skin. Spinning webs? No, they don’t do
+                   that instead they hunt minuscule flies and other insects. The
+                   sneak and pounce technique like lions help them catch their
+                   prey and have a nice meal. With two central large eyes
+                   conveying finer details they have total of <a href= "https://www.thoughtco.com/how-many-eyes-do-spiders-have-4186467" target= "_blank">6-8 eyes to cover a wider area</a>. It is to help them forage and stay aware of the
+                   surrounding activities.</p>
+                <br>
+                <p>Owing to their small size and habitat, their census is quite difficult comparing to
+                    other animals. Keeping track of their populations is extremely hard. It is possible
+                    that several species might have gone extinct due to human activities even before
+                    they were discovered. arthropods are the biggest victims of deforestation,
+                    because most of the time their population and their environmental importance is
+                    not taken into consideration before human activities in their territories. thus, they
+                    are easily wiped out.</p>
+                <br>
+                <p>Males have a vibrant and colourful abdomen with
+                   lateral flaps, and long hairy third pair of appendages that
+                   they use for courtship display. Such colouration is obtained
+                   from <a href= "https://www.thoughtco.com/peacock-spider-4769343" target= "_blank">microscopic scales</a> present all over the body especially
+                   the flap. Females are a tough, strong and less attractive with
+                   plain brown colour, they’re pretty choosy for mating. Hence
+                   the ‘peacock’ before these spiders resembles the similarity
+                   in their behaviour with the peacocks.</p>
+                <br>
+                <p>Mostly they live solitarily until the mating season which is
+                   from August to December. During this time, when the male
+                   is looking for a mate, he waves the third pair of legs to catch
+                   female’s attention. When he finally spots a female, he begins
+                   the courtship by making vibrations which are picked up by
+                   the female’s legs. If the female pays attention, he will raise
+                   his abdomen, extend the fan flaps and wiggle waggle
+                   accompanied by the third leg movements. If the female
+                   doesn’t pay attention the male produces more intense
+                   vibrations to get attention. In a study conducted it was
+                   observed that out of 64 mating trials only 16 males were
+                   successful, it showed <a href= "https://www.abc.net.au/news/science/2015-12-02/male-peacock-spiders-must-work-hard-to-win-the-ladies/6991106" target= "_blank">how picky females are</a>.</p>
+                <br>
+                <p>Although, the immense range of iridescent designs on
+                   different species make each of them unique and charming.
+                   Those big eyes make them look cute and the spiderlings
+                   even cuter. Talking of the babies, the female lays around half
+                   a dozen eggs at a time. She patrols over them nonstop and
+                   without food for about 2 weeks until they hatch. It does
+                   mean almost the end of her but the young ones are worth it.</p>
+                <br>
+                <p>Until now <a href= "https://www.bbc.com/news/science-environment-52075609" target= "_blank">85 species</a> have been discovered with most of
+                   them named after the person who discovered them. A book
+                   from 1970’s called them “gliding spiders”, it was believed
+                   that these <a href= "https://www.newscientist.com/article/dn27221-wizards-of-oz-worlds-cutest-and-most-awesome-spiders/" target= "_blank">spiders could fly</a> . It was proved later on that they
+                   couldn’t. When you observe them for the first time in reality
+                   your eyes could believe the story because of their quick and
+                   high jumps. That’s what happened with Dr Otto who later
+                   discovered many species of peacock spiders. He’s renowned
+                   for his love for these little creatures as the <a href= "https://cosmosmagazine.com/science/biology/the-colourful-world-of-jurgen-otto-the-peacock-spider-man/" target= "_blank">peacock spider man</a> . You can imagine how strenuous of a task it must be to
+                   actually spot and film these mini little creatures that are
+                   smaller than your nail.</p>
+                <br>   
+                <div class="d-inline-flex">
+                    <div style="font-family:serif"><h5><b>Author :&nbsp;&nbsp;</b></h5></div>
+                    <div class="d-flex flex-column">
+                        <div style="font-family: serif;"><h5><b>LOCHAN CHAUDHARI</b></h5></div>
+                        <div>BS-MS Student</div>
+                        <div>IISER Tirupati</div>
+                    </div>
+                </div>
+
+
+            </div>            
+        </div>
+
+
+        <h3>Related Articles</h3>
+        <div class="row row-content align-items-center justify-content-center">
+            <div class="col-lg-10"> 
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/p4.jfif">
+                    <div class="media-body">
+                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./(14)TheTermiteMounds.html">The Termite Mounds</a></h4> <span class="badge badge-danger d-inline">New</span>
+                        <p>Can you imagine that a termite, which is barely the size of a fingernail, when coming together in a million or two, can build mounds that can reach a height of 17 feet or even more!? Termites live in big social colonies which include...</p>
+                            <!--<span><a class="text-white" href="./(14)TheTermiteMounds.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-content align-items-center justify-content-center">
+            <div class="col-lg-10"> 
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/butterfly.jfif">      
+                    <div class="media-body">
+                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./(2)LifeWithoutBugs.html">Life Without Bugs</a></h4> <span class="badge badge-danger d-inline">New</span>
+                        <p>Let’s think of a hypothetical world with no arthropods around. The first thought to many would be “Glad those gross little creatures won’t haunt anymore!” There would no longer be mosquitoes...</p>
+                    </p><!--<span><a class="text-white" href="./(2)LifeWithoutBugs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center justify-content-center">
+            <div class="col-lg-10"> 
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/firefly1.png">
+                    <div class="media-body">
+                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./(3)BioluminesceneceInFireflies.html">Bioluminescence in Fireflies</a></h4> <span class="badge badge-danger d-inline">New</span>
+                        <p>Ever wondered why and how a Firefly(lightning bug) is able to light up?? Is it to scare
+                            away predators? or to communicate with its peers? or to produce heat for keeping itself
+                            warm? In this article we have covered answers to all such questions and more...</p>
+                            <!--<span><a class="text-white" href="./(3)BioluminesceneceInFireflies.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row ">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../gallery.html">Gallery</a></li>
+                        <li><a href="../articles.html">Articles</a></li>
+                        <li><a href="../contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <h4>Contact</h4>
+	                    <i class="fa fa-envelope fa -lg"></i> <a href="mailto:myinsectguide@gmail.com">Minuscules-myinsectguide</a>
+                    </div> 
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <h4>Join Us</h4>
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Myinsectguide-101453121631389/?ti=as" target="_blank"><i class="fa fa-facebook fa -lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/minuscules_" target="_blank"><i class="fa fa-twitter fa -lg"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/minuscules_?r=nametag" target= "_blank"><i class="fa fa-instagram fa -lg"></i></a>
+
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Minuscules - My Insect Guide</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
