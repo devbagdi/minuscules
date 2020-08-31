@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <!-- endbuild -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -73,82 +74,70 @@
 
 
         <!-----------News feed------------>
-        <div class=" row mt-4 justify-content-center"><h4>Most Discussed</h4></div>
+        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Most Discussed</h4></div>
         <div class="row">
-            <div id="newsfeed1" class="tabcontent col-md-5 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/BeeVsSpider.jpg"></div>
-            <div id="newsfeed2" class="tabcontent col-md-5 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/metamorphosis.png"></div>
-            <div id="newsfeed3" class="tabcontent col-md-5 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/firefly2.png"></div>
-            <div id="newsfeed4" class="tabcontent col-md-5 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/antcolony.png"></div>
-            <div id="newsfeed5" class="tabcontent col-md-5 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/wood-1130494_1920_11.png"></div>
-            <div class="col-md-5 col-sm-6 align-self-center tab mr-auto">
+            <div id="newsfeed1" class="tabcontent col-md-6 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/BeeVsSpider.jpg"></div>
+            <div id="newsfeed2" class="tabcontent col-md-6 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/metamorphosis.png"></div>
+            <div id="newsfeed3" class="tabcontent col-md-6 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/firefly2.png"></div>
+            <div id="newsfeed4" class="tabcontent col-md-6 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/antcolony.png"></div>
+            <div id="newsfeed5" class="tabcontent col-md-6 col-sm-6 ml-auto align-self-stretch"><img class="img img-fluid" src="./img/wood-1130494_1920_11.png"></div>
+            <div class="col-md-6 col-sm-6 align-self-center tab mr-auto">
                 <a class="tablinks" href="./articles/(12)Spider-NormalMan'sInsect.html" onmouseover="openCity(event, 'newsfeed1')" id="defaultOpen">xdfb dfbxtdfb b dgbdf bdfb d bd b</a>
                 <a class="tablinks" href="./articles/(6)ABeautifulDragon.html" onmouseover="openCity(event, 'newsfeed2')">xgbxdf btd b tb t b tgb t gtb tbtb b tgb td bt </a>
                 <a class="tablinks" href="./articles/(8)AntsWhichLoveElectrics.html" onmouseover="openCity(event, 'newsfeed3')">xdxbdtfb  thbszsE fsr gvr grb sv fbr brb fvv r dvs r rs</a>
                 <a class="tablinks" href="./articles/(2)LifeWithoutBugs.html" onmouseover="openCity(event, 'newsfeed4')">dzfvjdf jfd  erkj vre evj fcj scwj jwr cj rvc </a>
                 <a class="tablinks" href="articles/(14)TheTermiteMounds.html" onmouseover="openCity(event, 'newsfeed5')">jrnvjrnemcoerv ere jrg ej fc wedd ew fckwefcrw fijw  rwv cjr v </a>
+                <a class="tablinks" href="articles/(14)TheTermiteMounds.html" onmouseover="openCity(event, 'newsfeed5')">jrnvjrnemcoerv ere jrg ej fc wedd ew fckwefcrw fijw  rwv cjr v </a>
             </div>
         </div>        
-
-
+        <br>
         <!----x-------News feed------x------>
-        <!-----------Latest News------------>
-        <h4 class="row mt-4 justify-content-center">Latest Articles</h4>
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-md-3">
-                <h4>dbcsbfj vrfhre verenvreb hv rev   jer vjre jjvr frej fjrfr </h4>
-            </div>
-            <div class="col-md-3">
-                <p>dbcabdcbbcb ch chr ch ec weh dch wehc whe c iwebijew c wc wbwrbvds sd vh vuirbvjre v v r v vir fkje jcnwf cfhwec wwr vc rc</p>
-            </div>
-            <div class="col-md-2"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antcolony.png"></div>
-        </div>
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-md-3">
-                <h4>dbcsbfj vrfhre verenvreb hv rev   jer vjre jjvr frej fjrfr </h4>
-            </div>
-            <div class="col-md-3">
-                <p>dbcabdcbbcb ch chr ch ec weh dch wehc whe c iwebijew c wc wbwrbvds sd vh vuirbvjre v v r v vir fkje jcnwf cfhwec wwr vc rc</p>
-            </div>
-            <div class="col-md-2"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antcolony.png"></div>
-        </div>
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-md-3">
-                <h4>dbcsbfj vrfhre verenvreb hv rev   jer vjre jjvr frej fjrfr </h4>
-            </div>
-            <div class="col-md-3">
-                <p>dbcabdcbbcb ch chr ch ec weh dch wehc whe c iwebijew c wc wbwrbvds sd vh vuirbvjre v v r v vir fkje jcnwf cfhwec wwr vc rc</p>
-            </div>
-            <div class="col-md-2"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antcolony.png"></div>
-        </div>
 
-        <div class="card-group">
-            <div class="card latest">
-              <img class="card-img-top" src="./img/bee.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">fvhed vrev er ce r c rje cke ce rch </h5>
-                <p class="card-text para">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card latest">
-              <img class="card-img-top" src="./img/antcolony.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">ef vh recrcr cwe cj wewjc  vjr v ecej ewj w dcwe dew  ewc ecedcfrr</h5>
-                <p class="card-text para">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card latest">
-              <img class="card-img-top" src="./img/firefly2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Cwnfjrncj ufbew cjebde cewj cew cj ewjc ew c cwecie kw dkek</h5>
-                <p class="card-text para">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        
+
+        <!-----------Latest News------------>
+        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Latest News</h4></div>
+        <div class="row justify-content-center">
+            <a href="./articles/(1)whyIsArthopodConservationIsImportant.html" class="card latest col-md-4 m-auto" style="height: 300px;text-decoration: none" data-aos="fade-right">
+                <img class="card-img-top" src="../img/antcolony.png" alt="Card image cap">
+                <div class="card-body overflow-hidden">
+                    <h5 class="card-title">fvhed vrev er ce r c rje cke ce rch </h5>
+                    <p class="card-text cardPara">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="align-self-baseline">
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </a>
+
+
+
+            <a class="card latest col-md-4 m-auto" style="height: 300px;text-decoration: none" data-aos="fade-up">
+                <img class="card-img-top" src="./img/BeeVsSpider.jpg" alt="Card image cap">
+                <div class="card-body overflow-hidden ">
+                    <h5 class="card-title">fwabefjnwr vjr  gr f r f wr f wr  kddwqdn w dke fjed jjed je </h5>
+                    <p class="card-text cardPara">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="align-self-baseline">
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </a>
+
+
+
+
+            <a class="card latest col-md-4 m-auto"  style="height: 300px;text-decoration: none;" data-aos="fade-left">
+                <img class="card-img-top" src="./img/metamorphosis.png" alt="Card image cap">
+                <div class="card-body overflow-hidden">
+                    <h5 class="card-title">sbfcesc weif jwe f we f uw djw djwdiwmdw d wd wjd wj dw d wjd w d</h5>
+                    <p class="card-text cardPara">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="align-self-baseline">
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </a>
+        </div>
+        <br>
         <!------x-----Latest News------x------>
+
 
         <!---------------carousel------------>
         <div class="row row-content">
@@ -191,101 +180,52 @@
             </div>  
         </div>
         <!---------x------carousel---------x----------->
+        
 
-        <!----------------article referance------------>
-        <h3>Articles</h3>
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-lg-10"> 
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antcolony.png">
-                    <div class="media-body">
-                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(13)SocialInsectsAndPandemics.html">Social Insects And Pandemics</a></h4> <span class="badge badge-danger d-inline">New</span>
-                        <p>Pandemic, a word which we all are familiar with now. Pandemics have happened as early as 3000 BC (of which we have a record of). Humans know how to prevent and treat diseases. We have a vast knowledge of many diseases, and we are continually trying to learn more. But what about insects? ... </p>
-                            <!--<span><a class="text-white" href="./(4)InsectOurTinySaviour.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
-                    </div>
+        <!------------Latest Articles---------->
+        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Latest Articles</h4></div>
+
+        <a href="./articles/(10)crabs.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;" data-aos="flip-up" >
+            <div class="col-md-4">
+                <h4>dbcsbfj vrfhre verenvreb hv rev   jer vjre jjvr frej fjrfr </h4>
+                <div class="align-self-baseline">
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-        </div>
-
-
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-lg-10"> 
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/termiteMound.png">      
-                    <div class="media-body">
-                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(14)TheTermiteMounds.html">The Termite Mounds</a></h4> <span class="badge badge-danger d-inline">New</span>
-                        <p> Can you imagine that a termite, which is barely the size of a fingernail, when coming together in a million or two, can build mounds that can reach a height of 17 feet or even more!? Termites live in big social colonies which include...</p>
-                    </p><!--<span><a class="text-white" href="./(2)LifeWithoutBugs.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
-                    </div>    
-                </div>
+            <div class="col-md-4">
+                <p>dbcabdcbbcb ch chr ch ec weh dch wehc whe c iwebijew c wc wbwrbvds sd vh vuirbvjre v v r v vir fkje jcnwf cfhwec wwr vc rc</p>
             </div>
-        </div>
+            <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail" src="./img/antcolony.png"></div>
+        </a>
 
-
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-lg-10">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/firefly1.png">
-                    <div class="media-body">
-                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(3)BioluminesceneceInFireflies.html">Bioluminescence in Fireflies</a></h4> <span class="badge badge-danger d-inline">New</span>
-                        <p>Ever wondered why and how a Firefly(lightning bug) is able to light up?? Is it to scare
-                            away predators? or to communicate with its peers? or to produce heat for keeping itself
-                            warm? In this article we have covered answers to all such questions and more...</p>
-                            <!--<span><a class="text-white" href="./articles/(3)BioluminesceneceInFireflies.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
-                    </div>
-                </div>
+        <a class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <div class="col-md-4">
+                <h4>dbcsbfj vrfhre verenvreb hv rev   jer vjre jjvr frej fjrfr </h4>
             </div>
-        </div>
-
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-lg-10"> 
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="../img/BeeVsSpider.jpg">
-                    <div class="media-body">
-                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(12)Spider-NormalMan'sInsect.html">Spider - A Layperson's Insect</a></h4> <span class="badge badge-danger d-inline">New</span>
-                           <p>'Is a spider an insect?' Most of us, if asked, will answer yes. But is the answer correct?
-                            Let us try to find out...</p>                           
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <p>dbcabdcbbcb ch chr ch ec weh dch wehc whe c iwebijew c wc wbwrbvds sd vh vuirbvjre v v r v vir fkje jcnwf cfhwec wwr vc rc</p>
             </div>
-        </div>
+            <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antcolony.png"></div>
+        </a>
 
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-lg-10"> 
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/metamorphosis.png">
-                    <div class="media-body">
-                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(5)evolutionOfMetamorphosis.html">Evolution Of Metamorphosis</a></h4> <span class="badge badge-danger d-inline">New</span>
-                        <p>It is now known for over 400 years how various animals undergo adverse physical changes during
-                             their life, how a caterpillar changes into a butterfly, and a tadpole into a frog. Metamorphosis
-                            , the process by which an animal develops after birth or hatching and goes through... <p>
-                            <!--<span><a class="text-white" href="./articles/(5)evolutionOfMetamorphosis.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
-                    </div>
-                </div>
+        <a class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <div class="col-md-4">
+                <h4>dbcsbfj vrfhre verenvreb hv rev   jer vjre jjvr frej fjrfr </h4>
             </div>
-        </div>
-
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-lg-10">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/dragonfly.jfif">
-                    <div class="media-body">
-                        <h4 class="mt-0 d-inline"><a class= "text-dark" href= "./articles/(6)ABeautifulDragon.html">The Beautiful Dragon</a></h4> <span class="badge badge-danger d-inline">New</span>
-                        <p>"Dragonflies hunt insects with great precision and have a 95% success rate and can eat 30 
-                            flies in a row," says Dr. Stacey Combes studying Dragonfly biomechanics at Harvard. </p>
-                            <!--<span><a class="text-white" href="./articles/(6)ABeautifulDragon.html"><button class="btn btn-primary btn-sm">Read More</button></a></span>-->
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <p>dbcabdcbbcb ch chr ch ec weh dch wehc whe c iwebijew c wc wbwrbvds sd vh vuirbvjre v v r v vir fkje jcnwf cfhwec wwr vc rc</p>
             </div>
-        </div>
-        <!---------------x---------article referance---------x----------->
+            <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antcolony.png"></div>
+        </a>
         <br>
+        <!---------------x---------LATEST ARTICLES---------x----------->
     </div>
+    <!------------x------site-content------x------------>
 
     <footer class="footer">
         <div class="container">
             <div class="row ">             
-                <div class="col-4 offset-1 col-sm-2">
+                <div class="col-4 offset-1 col-sm-2" data-aos="fade-right">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
@@ -297,13 +237,13 @@
 
 
 
-                <div class="col-12 col-sm-4 align-self-center">
+                <div class="col-12 col-sm-4 align-self-center"  data-aos="fade-up">
                     <div class="text-center">
                         <h4>Contact</h4>
 	                    <i class="fa fa-envelope fa -lg"></i> <a href="mailto:myinsectguide@gmail.com">Minuscules-myinsectguide</a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 align-self-center">
+                <div class="col-12 col-sm-4 align-self-center" data-aos="fade-left">
                     <div class="text-center">
                         <h4>Join Us</h4>
                         <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Myinsectguide-101453121631389/?ti=as" target="_blank"><i class="fa fa-facebook fa -lg"></i></a>
@@ -327,5 +267,9 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./js/scripts.js"></script>
     <!-- endbuild -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

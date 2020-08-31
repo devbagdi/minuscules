@@ -130,7 +130,7 @@ body{
 
 /* Style the tab */
 .tab {
-  background-color: #f1f1f1;
+  background-color:white;
   height: fit-content;
 }
 
@@ -165,17 +165,19 @@ body{
 }
 
 
-.para{
+.cardPara{
     display: none !important;
 }
 
-.latest :hover .card-bodyv{
-    background: #ddd !important;
+.latest:hover img{
+    width: 50%;
+    align-self: center;
+    justify-self: center;
 }
 
-.latest :hover .card-title{
+.latest:hover .card-title{
     display: none;
 }
-.latest :hover .para{
+.latest:hover .cardPara{
     display: block !important;
 }

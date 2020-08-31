@@ -31,11 +31,7 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").onmouseover();
-
-
    
-
-
 $('.gallery-modal').click(function() {
 
     var modaltitle = $(this).attr('data-title');
