@@ -29,8 +29,7 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).classList.add("active");
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").onmouseover();
+
    
 $('.gallery-modal').click(function() {
 
