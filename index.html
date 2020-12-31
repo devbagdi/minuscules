@@ -14,9 +14,13 @@
     <!--useful meta tags-->
     <title>Minuscules</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="google-site-verification" content="CMaTwqBTvzyULmgECDshUbn4bQxtETt6kAEyl57euxw" />
+
+
+    <!---------fonts------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
    
     <!---css files-->
     <!-- build:css css/main.css -->
@@ -27,15 +31,15 @@
     <!-- endbuild -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
 
+<body>
     <!-------------------navbar------------------->
-    <nav class="navbar navbar-light fixed-top navbar-expand-md">
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" style="font-family:cursive;" href="index.html"><img src="./img/logo.png" height="30" width="41">&nbsp; Minuscules</a>
+            <a class="navbar-brand mr-auto" style="font-family:'Dancing Script', cursive; font-size: 2em;" href="index.html"><img src="./img/logo.png" height="30" width="41">&nbsp; Minuscules</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home"></span> Home</a></li>
@@ -45,7 +49,7 @@
                 </ul>
                 <span class="navbar-text ml-auto d-sm-inline-block">
                     <a  class="btn btn-success text-white" role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdtBeqcimIh4mHt9nAzfvAde-dhbFRVOo_V3tsc3mBSTQ97cg/viewform?usp=sf_link" target='_blank'>
-                        <span class="fa fa-sign-in">Subscribe</span>
+                        <span class="fa fa-sign-in">&nbsp; SUBSCRIBE</span>
                     </a>
                 </span>
             </div>
@@ -54,152 +58,157 @@
     <!--------x-----------navbar---------x---------->
 
     <!--------jumbotron---------->
-    <header class="jumbotron">
+    <header class="jumbotron jumbotron-fluid" style="background: url('./img/hp\ bg\ 3\ correction\ 2.jpg');">
         <div class="container">
-            <div class="row row-header">
-                <div class="col-8 col-sm-2 align-self-center" ><img class="img-fluid" src="./img/logo.png"></div> 
-                <div class="col-12 col-sm-6 align-self-center">
-                    <h1>Minuscules</h1> <h4> My Insect Guide</h4>
-                    <p>A place for entomologists and entomophiles to share their knowledge and experience of insects with others.</p>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-sm-8 col-lg-6" ><img class="img-fluid" src="./img/logo.png"></div> 
+                <div class="col-12">
+                    <h1 class="text-center" style="font-family: 'Libre Baskerville', serif;">MINUSCULES</h1> 
+                    <h3 class="text-center" style="font-family: Georgia, 'Times New Roman', Times, serif;"> My Insect Guide</h3>
+                    <h5 class="text-center">A place for entomologists and entomophiles to share their knowledge and experience of insects with others.</h5>
+                    <br>
+                    <br>
                 </div> 
 
             </div>
         </div>
     </header>
     <!--------jumbotron---------->
-
-
     <!-------------site content----------------->
-    <div class="container">
+    <div class="container-fluid" style="background-image: url('./img/hp\ bg\ 2\ correction\ 1.jpg');">
 
-
-        <!-----------News feed------------>
-        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Most Discussed</h4></div>
-        <div class="row">
-            <div id="newsfeed1" class="tabcontent col-md-6 ml-auto align-self-stretch "><img class="mdimg img-fluid" src="./img/CancerInInsects.png"></div>
-            <div id="newsfeed2" class="tabcontent col-md-6 ml-auto align-self-stretch "><img class="mdimg img-fluid" src="./img/BeetleCameraWEB015.JPG"></div>
-            <div id="newsfeed3" class="tabcontent col-md-6 ml-auto align-self-stretch "><img class="mdimg img-fluid" src="./img/locust.jfif"></div>
-            <div id="newsfeed4" class="tabcontent col-md-6 ml-auto align-self-stretch "><img class="mdimg img-fluid" src="./img/gyanandromorph.jpg"></div>
-            <div id="newsfeed5" class="tabcontent col-md-6 ml-auto align-self-stretch "><img class="mdimg img-fluid" src="./img/firefly1.png"></div>
-            <div id="newsfeed6" class="tabcontent col-md-6 ml-auto align-self-stretch "><img class="mdimg img-fluid" src="./img/BeeVsSpider.jpg"></div>
-            <div class="col-md-6 col-sm-6 align-self-center tab mr-auto">
-                <a class="tablinks" href="./articles/(20)cancer in arthropods.html" onmouseover="openCity(event, 'newsfeed1')" id="defaultOpen">Cancer is one of the most dreaded diseases in humans. But are there any pieces of evidence of cancerous growths in arthropods?<div><small class="text-muted">November 12, 2020 &nbsp;  4:55pm IST</small></div></a>
-                <a class="tablinks" href="./newsfeed/(n5)-GoPro-for-beetles.html" onmouseover="openCity(event, 'newsfeed2')">University of Washington build a GoPro-style camera for beetles<div><small class="text-muted">July 15, 2020 &nbsp; 5:15pm IST </small></div></a>
-                <a class="tablinks" href="./newsfeed/(n7)-Insect-food-processing-more-efficient.html" onmouseover="openCity(event, 'newsfeed3')">Insect food processing proves to be more efficient and beneficial for the environment than other meat processing<div><small class="text-muted">July 25, 2020 &nbsp; 8:14am IST </small></div></a>
-                <a class="tablinks" href="./newsfeed/(n3)-gynandromorph-species-among-Hymenopterans.html" onmouseover="openCity(event, 'newsfeed4')">Scientists find gynandromorph species among Hymenopterans<div><small class="text-muted">February 28, 2020 &nbsp; 4:30pm IST </small></div></a>
-                <a class="tablinks" href="articles/(3)BioluminesceneceInFireflies.html" onmouseover="openCity(event, 'newsfeed5')"> Bioluminescence in Fireflies<div><small class="text-muted">July 5, 2020 &nbsp; 8:30pm IST </small></div></a>
-                <a class="tablinks" href="articles/(12)Spider-NormalMan'sInsect.html" onmouseover="openCity(event, 'newsfeed6')">Spider- A Layperson’s Insect.<div class="align-self-end"><small class="text-muted">July 5, 2020 &nbsp; 8:30pm IST </small></div></a>
-            </div>
-        </div>        
-        <br>
+        <div class="container">
+            <!-----------News feed------------>
+            <br>
+            <div class=" row justify-content-center"><img src="./img/Most discussed .PNG"></div>
+            <div class="row mt-4">
+                <div id="newsfeed1" class="tabcontent col-md-6 ml-auto align-self-stretch border-0 "><img class="mdimg img-fluid" src="./img/CancerInInsects.png"></div>
+                <div id="newsfeed2" class="tabcontent col-md-6 ml-auto align-self-stretch border-0 "><img class="mdimg img-fluid" src="./img/BeetleCameraWEB015.JPG"></div>
+                <div id="newsfeed3" class="tabcontent col-md-6 ml-auto align-self-stretch border-0 "><img class="mdimg img-fluid" src="./img/locust.jfif"></div>
+                <div id="newsfeed4" class="tabcontent col-md-6 ml-auto align-self-stretch border-0 "><img class="mdimg img-fluid" src="./img/gyanandromorph.jpg"></div>
+                <div id="newsfeed5" class="tabcontent col-md-6 ml-auto align-self-stretch border-0 "><img class="mdimg img-fluid" src="./img/firefly1.png"></div>
+                <div id="newsfeed6" class="tabcontent col-md-6 ml-auto align-self-stretch border-0 "><img class="mdimg img-fluid" src="./img/BeeVsSpider.jpg"></div>
+                <div class="col-md-6 col-sm-6 align-self-center tab mr-auto">
+                    <a class="tablinks" style="font-size: larger;"  href="./articles/(20)cancer in arthropods.html" onmouseover="openCity(event, 'newsfeed1')" id="defaultOpen">Cancer is one of the most dreaded diseases in humans. But are there any pieces of evidence of cancerous growths in arthropods?<div><small class="text-muted">November 12, 2020 </small></div></a>
+                    <a class="tablinks" style="font-size: larger;" href="./newsfeed/(n5)-GoPro-for-beetles.html" onmouseover="openCity(event, 'newsfeed2')">University of Washington build a GoPro-style camera for beetles<div><small class="text-muted">July 15, 2020 </small></div></a>
+                    <a class="tablinks" style="font-size: larger;" href="./newsfeed/(n7)-Insect-food-processing-more-efficient.html" onmouseover="openCity(event, 'newsfeed3')">Insect food processing proves to be more efficient and beneficial for the environment than other meat processing<div><small class="text-muted">July 25, 2020  </small></div></a>
+                    <a class="tablinks" style="font-size: larger;" href="./newsfeed/(n3)-gynandromorph-species-among-Hymenopterans.html" onmouseover="openCity(event, 'newsfeed4')">Scientists find gynandromorph species among Hymenopterans<div><small class="text-muted">February 28, 2020 </small></div></a>
+                    <a class="tablinks" style="font-size: larger;" href="articles/(3)BioluminesceneceInFireflies.html" onmouseover="openCity(event, 'newsfeed5')"> Bioluminescence in Fireflies<div><small class="text-muted">July 5, 2020 &nbsp; </small></div></a>
+                    <a class="tablinks" style="font-size: larger;" href="articles/(12)Spider-NormalMan'sInsect.html" onmouseover="openCity(event, 'newsfeed6')">Spider- A Layperson’s Insect.<div class="align-self-end"><small class="text-muted">July 5, 2020  </small></div></a>
+                </div>
+            </div>        
+            <br>
+        </div>
+    </div>
         <!----x-------News feed------x------>
 
-
-        <!-----------Latest News------------>
-        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Latest News</h4></div>
-        <div class="row justify-content-center">
-            <a href="./newsfeed/(n1)-Glacial-insects-warmer-waters.html" class="card latest col-md-4 m-auto" style="height: 300px;text-decoration: none" data-aos="fade-right">
-                <img class="card-img-top" src="./img/global-warming.jfif" alt="Card image cap">
-                <div class="card-body overflow-hidden">
-                    <h5 class="card-title">Glacial stream insect may tolerate warmer waters</h5>
-                    <p class="card-text cardPara"> A study published in Global Change Biology on July 22 found that mountain stoneflies can
-                        tolerate warmer water temperatures at least temporarily. In fact, they might even be stressed
-                        in their current extremely cold environments.</p>
-                </div>
-                <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 27, 2020  4:36pm IST</small></p>
-                </div>
-            </a>
-
-
-            <a href="./newsfeed/(n4)-Bee-disease-via-flowers.html" class="card latest col-md-4 m-auto" style="height: 300px;text-decoration: none" data-aos="fade-up">
-                <img class="card-img-top" src="./img/bee1.jfif" alt="Card image cap">
-                <div class="card-body overflow-hidden">
-                    <h5 class="card-title">Bee disease spreading via flowers</h5>
-                    <p class="card-text cardPara">A recent study published in Nature Ecology and Evolution showed that one in eleven flowers
-                        carries disease-cau sing parasites known to contribute to bee declines. It also found that one
-                        in eight individual bees had at least one parasite.</p>
-                </div>
-                <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 20, 2020  2:30pm IST</small></p>
-                </div>
-            </a>
-
-
-            <a href="./newsfeed/(n6)-Google-for-entomophiles-in-pandemic.html" class="card latest col-md-4 m-auto"  style="height: 300px;text-decoration: none;" data-aos="fade-left">
-                <img class="card-img-top" src="./galleryimage/Sunil mg_ Lygaeidae (seed bugs genus).jpg" alt="Card image cap">
-                <div class="card-body overflow-hidden">
-                    <h5 class="card-title">Google comes to the rescue of entomophiles in global pandemic</h5>
-                    <p class="card-text cardPara">Monsoon is in full swing, which means the air and ground are teeming with little critters,
-                        crawlies, and other tiny things that fly and buzz. But, the global pandemic has undoubtedly
-                        been a nightmare for some entomophiles</p>
-                </div>
-                <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 8, 2020 1:30am IST </small></p>
-                </div>
-            </a>
-        </div>
-        <br>
-        <div class="row justify-content-center">
-
-
-        </div>
-        <br>
-        <!------x-----Latest News------x------>
-
-
-        <!---------------carousel------------>
-        <div class="row row-content">
-            <div class="col-8 m-auto">
-                <div id="mycarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="4000">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img class="img-fluid image2"
-                                src="./img/acar1.jpeg" alt="beetles">
-                            <img class=" img-fluid image1"
-                                src="./img/car1.png" alt="beetles">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid image1"
-                                src="./img/car2.png" alt="ants">
-                            <img class="img-fluid image2"
-                                src="./img/acar2.jpeg" alt="ants">      
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid image1"
-                                src="./img/car3.png" alt="mosquito">
-                            <img class="img-fluid image2"
-                                src="./img/acar3.jpeg
-                                
-                                " alt="mosquito">    
-                        </div>
+    <div class="container-fluid latestnews" style="background-image: url('./img/hp\ bg\ 3\ correction\ 2.jpg');">
+        <div class="container text-white">
+            <!-----------Latest News------------>
+            <br>
+            <div class=" row justify-content-center"><img src="./img/News feed.PNG"></div>
+            <br>
+            <div class="card-deck" style="opacity: 0.7;">
+                <a href="./newsfeed/(n1)-Glacial-insects-warmer-waters.html" class="card latest col-md-4 m-auto" style="text-decoration: none" data-aos="fade-right">
+                    <img class="card-img-top" src="./img/global-warming.jfif" alt="Card image cap">
+                    <div class="card-body overflow-hidden">
+                        <h5 class="card-title text-white">Glacial stream insect may tolerate warmer waters</h5>
+                        <p class="card-text cardPara"> A study published in Global Change Biology on July 22 found that mountain stoneflies can
+                            tolerate warmer water temperatures at least temporarily. In fact, they might even be stressed
+                            in their current extremely cold environments.</p>
                     </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="1" ></li>
-                        <li data-target="#mycarousel" data-slide-to="2" ></li>
-                    </ol>
-                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>              
-                </div>
-            </div>  
+                    <!--<div class="align-self-baseline">
+                        <p class="card-text"><small class="text-muted">July 27, 2020  4:36pm IST</small></p>
+                    </div>-->
+                </a>
+
+
+                <a href="./newsfeed/(n4)-Bee-disease-via-flowers.html" class="card latest col-md-4 m-auto" style="text-decoration: none" data-aos="fade-up">
+                    <img class="card-img-top" src="./img/bee1.jfif" alt="Card image cap">
+                    <div class="card-body overflow-hidden">
+                        <h5 class="card-title text-white">Disease spreading in the bees via flowers</h5>
+                        <p class="card-text cardPara">A recent study published in Nature Ecology and Evolution showed that one in eleven flowers
+                            carries disease-cau sing parasites known to contribute to bee declines. It also found that one
+                            in eight individual bees had at least one parasite.</p>
+                    </div>
+                    <!--<div class="align-self-baseline">
+                        <p class="card-text"><small class="text-muted">July 20, 2020  2:30pm IST</small></p>
+                    </div>-->
+                </a>
+
+
+                <a href="./newsfeed/(n6)-Google-for-entomophiles-in-pandemic.html" class="card latest col-md-4 m-auto"  style="text-decoration: none;" data-aos="fade-left">
+                    <img class="card-img-top" src="./galleryimage/Sunil mg_ Lygaeidae (seed bugs genus).jpg" alt="Card image cap">
+                    <div class="card-body overflow-hidden">
+                        <h5 class="card-title text-white">Google comes to the rescue of entomophiles in global pandemic</h5>
+                        <p class="card-text cardPara">Monsoon is in full swing, which means the air and ground are teeming with little critters,
+                            crawlies, and other tiny things that fly and buzz. But, the global pandemic has undoubtedly
+                            been a nightmare for some entomophiles</p>
+                    </div>
+                    <!--<div class="align-self-baseline">
+                        <p class="card-text"><small class="text-muted">July 8, 2020 1:30am IST </small></p>
+                    </div>-->
+                </a>
+            </div>
+            <br>
+            <!------x-----Latest News------x------>
+            <!---------------carousel------------>
+            <div class="row row-content">
+                <div class="col-10 m-auto">
+                    <div id="mycarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="4000">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="img-fluid image2"
+                                    src="./img/acar1.jpeg" alt="beetles">
+                                <img class=" img-fluid image1"
+                                    src="./img/car1.png" alt="beetles">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid image1"
+                                    src="./img/car2.png" alt="ants">
+                                <img class="img-fluid image2"
+                                    src="./img/acar2.jpeg" alt="ants">      
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid image1"
+                                    src="./img/car3.png" alt="mosquito">
+                                <img class="img-fluid image2"
+                                    src="./img/acar3.jpeg" alt="mosquito">    
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1" ></li>
+                            <li data-target="#mycarousel" data-slide-to="2" ></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>              
+                    </div>
+                </div>  
+            </div>
+            <!---------x------carousel---------x----------->
+            <br>
         </div>
-        <!---------x------carousel---------x----------->
-        
+    </div>
 
-        <!------------Latest Articles---------->
-        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Latest Articles</h4></div>
 
-        <a href="./articles/(23)LifeOfADay.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+    
+    <div class="container-fluid articles" style="background-image: url('./img/hp\ bg\ 2\ correction\ 1.jpg');">
+        <div class="container">
+            <!------------Latest Articles---------->
+            <br>
+            <div class=" row justify-content-center"><img src="./img/Latest articles .PNG"></div>
+
+            <a href="./articles/(23)LifeOfADay.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Life Of A Day</h4>
-                <div class="align-self-baseline">
+                <h3>Life Of A Day</h3>
+                <!--<div class="align-self-baseline">
                     <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  7:00pm IST</small></p>
-                </div>
+                </div>-->
             </div>
             <div class="col-md-4">
                 <p> You might have heard about some insects (especially mayflies) having life spans as short as just
@@ -208,17 +217,14 @@
                 </p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/MAYFLIES.jpg"></div>
-        </a>
+            </a>
 
-
-
-
-        <a href="./articles/(22)InsectsCamouflage.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <a href="./articles/(22)InsectsCamouflage.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Camouflage: A strategy for survival</h4>
-                <div class="align-self-baseline">
+                <h3>Camouflage: A strategy for survival</h3>
+                <!--<div class="align-self-baseline">
                     <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  6:45pm IST</small></p>
-                </div>
+                </div>-->
             </div>
             <div class="col-md-4">
                 <p> If we look into the Oxford dictionary for the meaning of camouflage we will get: “the  way in which 
@@ -227,16 +233,14 @@
                 </p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/insectCamouflageThumb.jpg"></div>
-        </a>
+            </a>
 
-
-
-        <a href="./articles/(21)FliesInSpace.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <a href="./articles/(21)FliesInSpace.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Flies In Space</h4>
-                <div class="align-self-baseline">
+                <h3>Flies In Space</h3>
+                <!--<div class="align-self-baseline">
                     <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  5:30pm IST</small></p>
-                </div>
+                </div>-->
             </div>
             <div class="col-md-4">
                 <p> We all know about humans as an astronaut, but have you ever thought of flies as astronauts? How can
@@ -244,16 +248,14 @@
                       organisms to be sent into space.</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/fliesThumb.jpg"></div>
-        </a>
+            </a>
 
-
-
-        <a href="./articles/(20)cancer in arthropods.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <a href="./articles/(20)cancer in arthropods.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Cancer And Its Prevelence in Arthopods</h4>
-                <div class="align-self-baseline">
+                <h3>Cancer And Its Prevelence in Arthopods</h3>
+                <!--<div class="align-self-baseline">
                     <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  4:55pm IST</small></p>
-                </div>
+                </div>-->
             </div>
             <div class="col-md-4">
                 <p>Cancer is one of the most dreaded diseases in humans. But are there any pieces of evidence of cancerous
@@ -261,11 +263,9 @@
                 </p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/CancerInArthopodsThumb.jpg"></div>
-        </a>
-        
+            </a>
 
-
-        <a href="./articles/(19)AntsAndQueue.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <!--<a href="./articles/(19)AntsAndQueue.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
                 <h4>Why and how Ants move in queues?</h4>
                 <div class="align-self-baseline">
@@ -279,10 +279,9 @@
                 </p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/antsAndQueThumb.jpg"></div>
-        </a>
+            </a>
 
-
-        <a href="./articles/(18)EvolutionOfInsectWings.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <a href="./articles/(18)EvolutionOfInsectWings.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
                 <h4>Evolution Of Insect Wings</h4>
                 <div class="align-self-baseline">
@@ -295,11 +294,9 @@
                     spare a thought for insects, which evolved flight only once and...</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/insectWingsTHumb.jpg"></div>
-        </a>
+            </a>
 
-
-
-        <a href="./articles/(17)InsectsCommunication.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
+            <a href="./articles/(17)InsectsCommunication.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
                 <h4>Communication in Insects</h4>
                 <div class="align-self-baseline">
@@ -310,10 +307,9 @@
                 <p> For humans, it is easier to communicate with each other. We have different languages which we speak and sometimes translate so that people from other countries can also understand.</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail align-self-center" src="./img/insect-communication-150.jpg"></div>
-        </a>
+            </a>
 
-
-        <a href="./articles/(16)WhyDoScorpionsGlowUnderUVLight.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;" data-aos="flip-up" >
+            <a href="./articles/(16)WhyDoScorpionsGlowUnderUVLight.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;" data-aos="flip-up" >
             <div class="col-md-4">
                 <h4>Why Do Scorpions Glow Under UV Light ?</h4>
                 <div class="align-self-baseline">
@@ -324,18 +320,24 @@
                 <p> Have you ever seen a scorpion under moonlight or UV light? Do you know that these magnificent creatures glow in blue-green color?</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center"><img class="d-flex mr-3 img-thumbnail" src="./img/glowing-scorpion.jfif"></div>
-        </a>
-        
-        <br>
-        <!---------------x---------LATEST ARTICLES---------x----------->
+            </a>-->
+            <a href="./articles.html" class="outer">
+                <div class="button ml-auto mr-5">
+                    <div class="text" style="font-family:'Courier New', Courier, monospace;">SEE MORE</div>
+                </div>
+            </a>
+
+            <br>
+            <!---------------x---------LATEST ARTICLES---------x----------->
+        </div>
     </div>
     <!------------x------site-content------x------------>
-
     <footer class="footer">
         <div class="container">
+            <br>
             <div class="row ">             
-                <div class="col-4 offset-1 col-sm-2" data-aos="fade-right">
-                    <h5>Links</h5>
+                <div class="col-12 col-sm-4 text-center" data-aos="fade-right">
+                    <h4>LINKS</h4>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
@@ -346,15 +348,15 @@
 
 
 
-                <div class="col-12 col-sm-4 align-self-center"  data-aos="fade-up">
+                <div class="col-12 col-sm-4 justify-content-center align-self-center"  data-aos="fade-up">
                     <div class="text-center">
-                        <h4>Contact</h4>
-	                    <i class="fa fa-envelope fa -lg"></i> <a href="mailto:myinsectguide@gmail.com">Minuscules-myinsectguide</a>
+                        <h4>CONTACTS</h4>
+                        <i class="fa fa-envelope fa -lg"></i> <a href="mailto:myinsectguide@gmail.com">Minuscules-myinsectguide</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center" data-aos="fade-left">
                     <div class="text-center">
-                        <h4>Join Us</h4>
+                        <h4>JOIN US</h4>
                         <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Myinsectguide-101453121631389/?ti=as" target="_blank"><i class="fa fa-facebook fa -lg"></i></a>
                         <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/minuscules_" target="_blank"><i class="fa fa-twitter fa -lg"></i></a>
                         <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/minuscules_?r=nametag" target= "_blank"><i class="fa fa-instagram fa -lg"></i></a>
@@ -362,6 +364,13 @@
                     </div>
                 </div>
            </div>
+           <br>
+           <br>
+           <div class="row justify-content-center">             
+            <div class="col-auto">
+                <p class="text-center">Disclaimer - The contents and material available on the website are totally for educational and research purpose and also for fair use under the provisions of Copyright Act. In case of any complaint or suggestions, kindly write us on myinsectguide@gmail.com</p>
+            </div>
+        </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
                     <p>© Copyright 2020 Minuscules - My Insect Guide</p>

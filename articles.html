@@ -15,6 +15,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <!---------fonts------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
    
     <!---css files-->
     <!-- build:css css/main.css -->
@@ -24,15 +30,15 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <!-- endbuild -->
 </head>
-<body>
+<body style="background: url(./img/hp\ bg\ 2\ correction\ 1.jpg);">
 
     <!-------------------navbar------------------->
-    <nav class="navbar navbar-light fixed-top navbar-expand-sm ">
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md ">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a  class="navbar-brand mr-auto" style="font-family: cursive;"href="index.html"><img src="./img/logo.png" height="30" width="41">&nbsp; Minuscules</a>
+            <a  class="navbar-brand mr-auto" style="font-family:'Dancing Script', cursive; font-size: 2em;"href="index.html"><img src="./img/logo.png" height="30" width="41">&nbsp; Minuscules</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home</a></li>
@@ -42,7 +48,7 @@
                 </ul>
                 <span class="navbar-text ml-auto">
                     <a class="btn btn-success text-white" role="button"  href="https://docs.google.com/forms/d/e/1FAIpQLSdtBeqcimIh4mHt9nAzfvAde-dhbFRVOo_V3tsc3mBSTQ97cg/viewform?usp=sf_link" target='_blank'>
-                        <span class="fa fa-sign-in"></span> Subscribe
+                        <span class="fa fa-sign-in">&nbsp; SUBSCRIBE</span>
                     </a>
                 </span>
             </div>
@@ -51,14 +57,14 @@
     <!--------x-----------navbar---------x---------->
 
     <!--------jumbotron---------->
-    <header class="jumbotron">
-        <div class="row">
+    <!--<header class="container mt-3">
+        <div class="row" style="font-size:larger;">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item active"><a href="#">Articles</a></li>
             </ol>
         </div>
-        <!--<div class="container">
+        <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6 align-self-center">
                     <h1>Minuscules</h1> <h4> My Insect Guide</h4>
@@ -70,21 +76,21 @@
     </header>
     <!--------jumbotron---------->
 
-    <div class="container">
+    <div class="container mt-4">
 
         <!------------Latest Articles---------->
 
 
-        <div class=" row mt-4 justify-content-center"><h4 style="font-family:Georgia, 'Times New Roman', Times, serif;">Latest Articles</h4></div>
+        <div class=" row justify-content-center mt-2"><img src="./img/Latest articles .PNG"></div>
 
 
 
 
         <a href="./articles/(23)LifeOfADay.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Life Of A Day</h4>
+                <h3>Life Of A Day</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  7:00pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">November 12, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -101,9 +107,9 @@
 
         <a href="./articles/(22)InsectsCamouflage.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Camouflage: A strategy for survival</h4>
+                <h3>Camouflage: A strategy for survival</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  6:45pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">November 12, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -119,9 +125,9 @@
 
         <a href="./articles/(21)FliesInSpace.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Flies In Space</h4>
+                <h3>Flies In Space</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  5:30pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">November 12, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -136,9 +142,9 @@
 
         <a href="./articles/(20)cancer in arthropods.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Cancer And Its Prevelence in Arthopods</h4>
+                <h3>Cancer And Its Prevelence in Arthopods</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  4:55pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">November 12, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -153,9 +159,9 @@
 
         <a href="./articles/(19)AntsAndQueue.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Why and how Ants move in queues?</h4>
+                <h3>Why and how Ants move in queues?</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">November 12, 2020 &nbsp;  4:47pm IST </small></p>
+                    <p class="card-text"><small class="text-muted">November 12, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -170,9 +176,9 @@
 
         <a href="./articles/(18)EvolutionOfInsectWings.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Evolution Of Insect Wings</h4>
+                <h3>Evolution Of Insect Wings</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">September 15, 2020  7:15pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">September 15, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -187,9 +193,9 @@
 
         <a href="./articles/(17)InsectsCommunication.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Communication in Insects</h4>
+                <h3>Communication in Insects</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">August 29, 2020  3:30pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">August 29, 2020</small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -201,9 +207,9 @@
 
         <a href="./articles/(16)WhyDoScorpionsGlowUnderUVLight.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;" data-aos="flip-up" >
             <div class="col-md-4">
-                <h4>Why Do Scorpions Glow Under UV Light ?</h4>
+                <h3>Why Do Scorpions Glow Under UV Light ?</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">August 29, 2020  12:30pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">August 29, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -215,9 +221,9 @@
 
         <a href="./articles/(15)WiggleWaggleForSurvival.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Wiggle-waggle for survival</h4>
+                <h3>Wiggle-waggle for survival</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">August 27, 2020  10:00am IST</small></p>
+                    <p class="card-text"><small class="text-muted">August 27, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -229,9 +235,9 @@
 
         <a href="./articles/(14)TheTermiteMounds.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>The Termite Mound</h4>
+                <h3>The Termite Mound</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">August 9, 2020  11:50pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">August 9, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -246,9 +252,9 @@
 
         <a href="./articles/(13)SocialInsectsAndPandemics.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Social Insects And Pandemics</h4>
+                <h3>Social Insects And Pandemics</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">August 7, 2020  10:30pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">August 7, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -260,9 +266,9 @@
 
         <a href="./articles/(12)Spider-NormalMan'sInsect.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Spider- A Layperson’s Insect</h4>
+                <h3>Spider- A Layperson’s Insect</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">August 5, 2020  8:50pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">August 5, 2020</small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -274,9 +280,9 @@
 
         <a href="./articles/(11)crustaceans.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Crustaceans</h4>
+                <h3>Crustaceans</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  11:20pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -289,9 +295,9 @@
 
         <a href="./articles/(10)crabs.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Crabs</h4>
+                <h3>Crabs</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  8:50pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -306,9 +312,9 @@
 
         <a href="./articles/(9)TheBeeDance.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>The Bee Dance</h4>
+                <h3>The Bee Dance</h4>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  11:00pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020</small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -322,9 +328,9 @@
 
         <a href="./articles/(8)AntsWhichLoveElectrics.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Ants Which Love Electrics</h4>
+                <h3>Ants Which Love Electrics</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  8:50pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -338,9 +344,9 @@
 
         <a href="./articles/(7)cockroaches.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Why Is Arthopods Conservation Important</h4>
+                <h3>How Cockroaches Can Live Without Head ?</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  7:30pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -353,9 +359,9 @@
 
         <a href="./articles/(6)ABeautifulDragon.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>A Beautiful Dragon</h4>
+                <h3>A Beautiful Dragon</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  2:50pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -367,9 +373,9 @@
 
         <a href="./articles/(5)evolutionOfMetamorphosis.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Evolution Of Metamorphosis</h4>
+                <h3>Evolution Of Metamorphosis</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  11:00am IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -384,9 +390,9 @@
 
         <a href="./articles/(4)InsectOurTinySaviour.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Insect : Our Tiny Saviour</h4>
+                <h3>Insect : Our Tiny Saviour</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 7, 2020  8:50am IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 7, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -400,9 +406,9 @@
 
         <a href="./articles/(3)BioluminesceneceInFireflies.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Bioluminescence In Fireflies</h4>
+                <h3>Bioluminescence In Fireflies</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 5, 2020  11:51pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 5, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -416,9 +422,9 @@
 
         <a href="./articles/(2)LifeWithoutBugs.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Life Without Bugs</h4>
+                <h3>Life Without Bugs</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 5, 2020  9:40pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 5, 2020  </small></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -431,9 +437,9 @@
 
         <a href="./articles/(1)whyIsArthopodConservationIsImportant.html" class="row row-content align-items-center justify-content-center text-dark" style="text-decoration: none;"  data-aos="flip-up">
             <div class="col-md-4">
-                <h4>Why Is Arthopods Conservation Important</h4>
+                <h3>Why Is Arthopods Conservation Important</h3>
                 <div class="align-self-baseline">
-                    <p class="card-text"><small class="text-muted">July 5, 2020  8:50pm IST</small></p>
+                    <p class="card-text"><small class="text-muted">July 5, 2020 </small></p>
                 </div>
             </div>
             <div class="col-md-4">

@@ -1,4 +1,17 @@
 
+a{
+    text-decoration: none !important;
+}
+
+a > div > h3 {
+    font-weight: bold;
+    font-family:inherit !important;
+}
+
+h3{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
 .row-header{
     margin:0px auto;
     padding: 0px auto;
@@ -11,17 +24,29 @@
 }
 
 .footer{
-    background-color:rgb(221, 220, 220);
+    background-color:black;
+    color: white;
     margin: 0px auto;
     padding: 20px 0px 20px 0px
 }
-.navbar-light{
-    background: white !important;
+.footer a{
+    color: white;
+}
+.navbar{
+    background-color: black !important;
 }
 .jumbotron{
+    background-color:black;
+    color: white;
     height: auto;
     padding: 10px 30px 10px 30px;
     margin:0px auto;
+}
+.breadcrumb{
+    padding-top: 80px !important;
+}
+.latestnews{
+    background-color: black;
 }
 .breadcrumb{
     padding: 0rem 1rem !important;
@@ -39,23 +64,18 @@
 }
 
 /* to avoid navbar from hiding jumbotron */
-body{
-    padding: 70px 0px 0px 0px !important;
-    z-index: -1 !important;
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    overflow-x: hidden; 
 }
 /*       x              to avoid navbar from hiding jumbotron        x       */
 .navbar-light{
     background:white !important;
 }
 
-.tab-content{
-    height: 100%;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    padding: 10px;
-}
 .list-group-item.active{
     background-color: rgba(128, 128, 128, 0.534) !important;
     border-color: grey !important;
@@ -133,6 +153,7 @@ body{
 
 /* Style the buttons that are used to open the tab content */
 .tab a {
+    text-decoration: none;
   display: block;
   background-color: inherit;
   color: black;
@@ -165,6 +186,9 @@ body{
 .cardPara{
     display: none !important;
 }
+.card {
+    background-color: black;
+}
 
 .latest:hover img{
     width: 50%;
@@ -177,4 +201,58 @@ body{
 }
 .latest:hover .cardPara{
     display: block !important;
+    color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.outer {
+    margin: 50px ;
+  }
+  
+.button {
+    border-bottom: 5px solid #00b100;
+    border-radius: 3px;
+    width: 110px;
+    height: 30px;
+    display: block;
+  
+    background-image: linear-gradient(to top, #00b100 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: all .3s ease-out;
+  }
+  
+  .button:hover {
+    background-position:bottom;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px; 
+    color: black;
+    transition: all .3s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+    color: white;  
+  }
+
+  .partheading{
+    border-bottom: 3px solid #00c400;
+    border-right: 5px solid #00c400;
+    border-radius: 3px;
+
+  }
+  
