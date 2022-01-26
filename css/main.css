@@ -15515,3 +15515,93 @@ ul li {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px
 }
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+  }
+  
+  html{
+	box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  .column4{
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+	
+  }
+  
+  .card1 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+	color: white;
+	
+  }
+  
+  .about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #000000;
+	color: white;
+  }
+  
+  .container1 {
+	padding: 0 16px;
+	background-color: white;
+	color: black;
+	
+  }
+  
+  .container1::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	background-color: white;
+	
+  }
+  
+  .title {
+	color: grey;
+  }
+  
+
+  .button1 {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #28a745;
+	border-color: #28a745;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  .button1:hover {
+	background-color: #218838;
+	border-color: #1e7e34
+  }
+  
+  @media screen and (max-width: 650px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  color: white;
+	}
+  }
+
+
+  
+.row1 {
+	color: white;
+}
+
+.feedback {
+	padding-left: 75px; 
+}
