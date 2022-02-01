@@ -51,3 +51,39 @@ $('.gallery-modal').click(function() {
     $("#twitterHref").attr("href", modalTwitterHref);
     $('#gallerymodal').modal();
 });
+
+var description = [
+  "./insfacts/1.png",
+  "./insfacts/2.png",
+  "./insfacts/3.png",
+  "./insfacts/4.png",
+  "./insfacts/5.png",
+  "./insfacts/6.png",
+  "./insfacts/7.png",
+  "./insfacts/8.png",
+  "./insfacts/9.png",
+  "./insfacts/10.png",
+  "./insfacts/11.png",
+  "./insfacts/13.png",
+  "./insfacts/14.png",
+  "./insfacts/15.png",
+  "./insfacts/1.1.png",
+  "./insfacts/2.2.png",
+  "./insfacts/3.3.png",
+  "./insfacts/4.4.png",
+  "./insfacts/5.5.png",
+  "./insfacts/6.6.png",
+  "./insfacts/7.7.png",
+  "./insfacts/8.8.png",
+  "./insfacts/9.9.png",
+  "./insfacts/10.10.png",
+  "./insfacts/11.11.png",
+  "./insfacts/12.12.png",
+  "./insfacts/13.13.png",
+  "./insfacts/14.14.png",
+  "./insfacts/15.15.png"
+];
+
+var size = description.length
+var x = Math.floor(size*Math.random())
+document.getElementById('image').src=description[x];
